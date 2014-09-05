@@ -10,7 +10,7 @@ In your YAML front-matter, put `private: true` for marking a page as private.
 Per default, pages are public.
 
 If using the CLI for Metalsmith, metalsmith-scoping can be used like any other
-plugin by including it in metalsmith.json. For example:
+plugin by including it in `metalsmith.json`. For example:
 
 ```json
 {
@@ -37,8 +37,9 @@ require('metalsmith')(__dirname)
 
 ## Options
 
-All options are optional. For defaults see below. Note that the `` option cannot be used, as JSON doesn't serialize JavaScript 
-functions.
+All options are optional. For defaults see below. Note that the `privateProcess`
+and `publicProcess` options cannot be used via CLI, as JSON doesn't serialize 
+JavaScript functions.
 
  - `scope` defines which mode you're building. When set to `private` it will
    include private pages, otherwise discard them. Default is `public`.
@@ -87,6 +88,6 @@ var opts = {
 };
 ```
 
-This wraps the given block into a `<div class="private">` element when building
-with private scope and removes it entirely when building with public scope.
-
+This wraps the given block into a `<div class="private"></div>` element when 
+building with private scope and removes it entirely when building with public
+scope.
