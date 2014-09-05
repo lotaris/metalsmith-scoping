@@ -1,0 +1,23 @@
+{
+  "name": "metalsmith-scoping",
+  "version": "1.0.0",
+  "description": "Metalsmith plugin for hiding content at build time",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/lotaris/metalsmith-scoping",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lotaris/metalsmith-scoping"
+  },
+  "bugs": {
+    "url": "https://github.com/lotaris/metalsmith-scoping/issues"
+  },
+  "main": "lib/index.js",
+  "license": "MIT",
+   "dependencies": {
+    "marked": "^0.3.2"
+  },
+  "devDependencies": {
+    "metalsmith": "0.x",
+    "debug": "^1.0.2"
+  }
+}
