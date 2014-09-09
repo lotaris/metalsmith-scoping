@@ -91,3 +91,8 @@ var opts = {
 This wraps the given block into a `<div class="private"></div>` element when 
 building with private scope and removes it entirely when building with public
 scope.
+
+
+## License
+
+MIT, see [LICENSE](LICENSE).
