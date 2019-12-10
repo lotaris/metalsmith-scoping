@@ -1,3 +1,7 @@
+### :warning: Unmaintained.
+
+---
+
 # metalsmith-scoping
 
 This is a plugin for [Metalsmith](http://metalsmith.io/) that allows marking 
